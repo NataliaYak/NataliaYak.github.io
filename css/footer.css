@@ -1,0 +1,64 @@
+/*FOOTER*/
+
+.page_footer {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 0.8125rem;
+    line-height: 2.25;
+    letter-spacing: 0.02rem; 
+    height: 115px;
+}
+
+/*MAP*/
+
+.map {
+    height: 334px;
+    background-image: url(/img/map-img.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+}
+
+/*COPYRIGHT*/
+
+.copyright__wrapper {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 42.5px; 
+    margin-bottom: 42.5px;
+}
+
+.copyright__design {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.design_by::after {
+    content: "";
+    position: absolute;
+    top: -3px;
+    left: 62px;
+    margin: 0;
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    background-image: url(/img/bee-one-img.png);
+    background-repeat: no-repeat;
+}
+
+.designer_url {
+    padding-left: 30px;
+}
+
+.copyright .copyright__link {
+    text-decoration: none;
+    color:inherit;
+    cursor: pointer;
+}

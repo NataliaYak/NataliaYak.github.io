@@ -1,0 +1,68 @@
+/*PROMO*/
+
+.promo,
+.promo__title,
+.promo__description,
+.scroll__item,
+.scroll__text,
+.img-button {
+    padding: 0;
+    margin: 0;
+}
+
+.img_bg {
+ position: absolute;     
+ background-color: #000000;
+ background: url(/img/promo-bg.jpg);
+ background-repeat: no-repeat;
+ background-position: center top;
+ background-size: cover; 
+ height: 885px;
+ width: 100%;    
+ text-align: center;
+ z-index: -1;
+}
+
+.promo {    
+ padding-top: 250px;
+ padding-bottom: 106px;  
+ text-align: center;
+ background-color: transparent;
+}
+
+.promo__title {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;    
+  font-family: 'Gotham-Bold', sans-serif;
+  font-size: 152.54px;
+  line-height: 0.8;
+  letter-spacing: 0.048rem;
+  text-transform: uppercase;
+  transform: scale(.9,1);
+  color: #f5f5f5; 
+  text-align: center;
+}
+
+.promo__description {
+  display: inline-block;
+  padding-left: 20px;
+  padding-bottom: 105px;  
+  font-family: 'Gotham-Medium', sans-serif;
+  font-size: 1.5494rem;
+  line-height: 51.19px;
+  letter-spacing: 1.08rem;
+  text-transform: uppercase;
+  color: #11749e;  
+}
+
+.scroll__text{
+  margin: 0 15px;
+  margin-bottom: 19px;  
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 0.8125rem;
+  line-height: 1.3750;
+  text-transform: capitalize;
+  color: #ffffff;   
+}

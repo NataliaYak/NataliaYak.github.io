@@ -1,0 +1,134 @@
+/*FEEDBACK*/
+
+.feedback {
+  text-align: center;  
+  height: 852px;
+  padding-top: 209px;
+}
+
+.feedback__wrapper {  
+  padding: 0;
+  margin: 0;  
+}
+
+.feedback__title {
+  position: relative;
+  margin: 0 auto;
+  padding-top: 125px;
+  padding-bottom: 30px;
+  padding: 0;
+  font-family: 'Gotham-Medium', sans-serif;
+  font-weight: normal;
+  font-size: 2.3125rem;
+  line-height: 1.5;
+  text-transform: uppercase;
+  color: #ffffff;
+  vertical-align: text-top;
+}
+
+.feedback__wrapper .feedback__title::before {
+  content: "c";
+  position: absolute;
+  top: -75px;
+  left: 0;
+  right: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;    
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 247px;
+  line-height: 210.64px;
+  text-transform: uppercase;
+  color: #ffffff; 
+  opacity: 0.18;
+}
+
+/* FEEDBACK FORM*/
+
+.feedback {
+    background-image: url(/img/form-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;     
+}
+
+.feedback__form {
+    width: 1200px;
+    height: 358px;
+    margin: 0 auto;
+    margin-top: 132px;
+}
+
+.feedback__form-data, 
+.feedback__form-message {
+    margin: 0;
+    padding: 0;
+    margin-left: 15px;
+    margin-right: 15px;
+    border: none;
+}
+
+.form-data_field, .message-field {
+    padding: 0;
+    padding-left: 24px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    font-family: 'Gotham-Book', sans-serif;
+    font-weight: normal;
+    font-size: 0.9375rem;
+    line-height: 2.25;
+    color: #ffffff;    
+}
+
+.form-data_field {
+    width: 367px;
+    height: 49px;
+}
+
+.message-field {
+    width: 1170px;
+    height: 152px;
+}
+
+.mail-field {
+    margin: 0 30px;
+}
+
+.feedback__form-data input::placeholder,
+.feedback__form-message textarea::-webkit-input-placeholder  { 
+
+    font-family: 'Gotham-Book', sans-serif;
+    font-weight: normal;
+    font-size: 0.9375rem;
+    line-height: 2.25;
+    color: #ffffff; 
+}
+
+.feedback__form-data input:focus::placeholder,
+.feedback__form-message textarea:focus::-webkit-input-placeholder  {
+    color: transparent;
+}
+
+.feedback__form-message {
+    margin-top: 39px;
+}
+
+.feedback__form .btn {    
+    margin-top: 45px;
+    border: none;
+    outline: none;
+    background-color: #11749e;
+    width: 228px;
+    height: 66px;    
+    font-family: 'Gotham-Medium', sans-serif;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-transform: uppercase;
+    color: #ffffff;
+    cursor: pointer;
+}
+    
+    
+    

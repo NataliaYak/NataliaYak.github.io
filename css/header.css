@@ -1,0 +1,128 @@
+
+/*HEADER*/
+
+
+.page__header {
+    margin: 0 auto;
+    border-bottom: 1px solid #757575;
+}
+
+.header-container {    
+    padding: 0;
+    height: 115px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;    
+}
+
+.header {    
+    max-width: 1200px;
+    margin: 0 auto; 
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 15px;    
+}
+
+.header__logo {
+    padding-right: 244px;
+}
+
+.header__navigation, 
+.nav {
+    height: 95px;    
+    vertical-align: middle;
+    padding-top: 5px;
+}
+
+.nav__item {
+    position: relative;
+    padding: 0;
+    font-family: 'Myriad-Pro-Regular', sans-serif;
+    font-size: 1.23rem;
+    vertical-align: middle;
+}
+
+.nav__list {
+    display:flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    width: 670px;
+    height: inherit;    
+}
+
+.social__navigation, .social {
+    height: 95px;  
+    vertical-align: middle;
+    padding-top: 5px;
+}
+
+.social__list {    
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 198px;
+    justify-content: flex-end;
+    height: inherit;
+}
+
+.social__item {
+    position: relative;
+    padding: 0;
+    font-family: 'FontAwesome', sans-serif;
+    font-size: 1.25rem;
+    letter-spacing: 0.05rem; 
+    padding-left: 24px;
+    vertical-align: middle;
+}
+
+.nav__link {
+   color: #ffffff; 
+}
+
+.social__link {
+   color: #f5f5f5; 
+}
+
+.social__link, 
+.nav__link {
+    text-decoration: none;
+    height: inherit; 
+}
+
+.social__link:hover, 
+.nav__link:hover {
+    color: #11749e;
+}
+
+.nav__item::after {  
+  content: "";
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  margin: 0;
+  height: 3px;
+  background-color: transparent;
+  text-align: center;
+  transition-property: background-color;
+  transition-duration: 0;
+  transition-delay: 0.1s;
+  transition-timing-function: linear;
+  
+}
+
+.nav__item:hover::after {  
+  background-color: #11749e;
+  animation: linechange 1s linear;  
+}
+
+.fab {
+    margin-top: 25px;
+}

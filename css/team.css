@@ -1,0 +1,123 @@
+/*TEAM*/
+
+
+.team {
+  text-align: center;
+  background-color: #ffffff;
+  height: 945px;
+  padding-top: 125px;
+}
+
+.team__wrapper {  
+  padding: 0;
+  margin: 0;
+}
+
+.team__title {
+  position: relative;
+  margin: 0 auto;
+  padding-top: 125px;
+  padding-bottom: 30px;
+  padding: 0;
+  font-family: 'Gotham-Medium', sans-serif;
+  font-weight: normal;
+  font-size: 2.3469rem;
+  line-height: 2.8163;
+  text-transform: uppercase;
+  color: #222222;
+  vertical-align: text-top;
+}
+
+.team__wrapper .team__title::before {
+  content: "t";
+  position: absolute;
+  top: -43px;
+  left: 0;
+  right: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;    
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 247px;
+  line-height: 210.64px;
+  text-transform: uppercase;
+  color: #222222; 
+  opacity: 0.18;
+}
+
+.team__description {  
+  margin: 0 auto;
+  margin-top: 75px;
+  font-family: 'Gotham-Book', sans-serif;
+  font-weight: normal;
+  font-size: 1.9125rem;
+  line-height: 2.3125;
+  color: #222222;
+  white-space: nowrap;
+}
+
+.team__items{
+  padding: 0;
+  margin-top: 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/*  TEAMSBLOCK COMPONENT  */
+
+.teamsblock {  
+  position: relative;
+  width: 270px;
+  margin: 0 15px;
+  padding: 0;
+  padding-bottom: 20px;
+  overflow: hidden;
+  text-align: center;  
+}
+
+.teamsblock:first-child {
+  margin-left: 0;
+}
+
+.teamsblock:last-child {
+  margin-right: 0;
+}
+
+.teamsblock__title span {  
+  margin: 0;
+  margin-bottom: 14px;
+  margin-top: 42px;
+  padding: 0;
+  text-align: center;
+  font-family: 'Gotham-Medium', sans-serif;
+  font-weight: normal;
+  font-size: 1.250rem;
+  line-height: 1.5;
+  text-transform: uppercase;
+  color: #11749e;
+  white-space: nowrap;    
+}
+
+.teamsblock__title,
+.teamsblock__title span {
+   border-top: 24px solid #ffffff; 
+}
+
+.teamsblock__title {  
+  position: absolute;
+  top: 360px;
+  left: 25px;
+  text-align: center;
+  font-family: 'Gotham-Medium', sans-serif;
+  font-weight: normal;
+  font-size: 0.9375rem;
+  line-height: 1.5;
+  color: #000000;
+  white-space: nowrap;
+  background-color: #ffffff;
+  height: 150px;  
+  width: 218px;
+  text-align: center;
+}

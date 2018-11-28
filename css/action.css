@@ -1,0 +1,47 @@
+/*ACTION*/
+
+.action {    
+  background-color: #11749e;
+  height: 355px;
+}
+
+.action__wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.action__items {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 585px;
+    padding-top: 110px;
+    margin-right: 15px;
+    text-align: left;
+    font-family: 'Gotham-Book', sans-serif;
+    font-weight: normal;
+    font-size: 0.9375rem;
+    line-height: 1.5;
+    color: #ffffff;
+}
+
+.action__items::before {
+    content: "";
+    display: inline-block;
+    margin: 0;
+    width: 75px;
+    height: 75px;
+    margin-right: 20px;
+    background-image: url(/img/action-icon-sprite.png);
+    background-position: -16px -20px;     
+}
+ 
+.action__item-one {
+    width: 469px;
+    text-align:left;
+}
+
+.action__item-two {
+    width: 470px;
+}
