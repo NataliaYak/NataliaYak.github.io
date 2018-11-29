@@ -78,10 +78,12 @@
 
 .date__news-two {
    padding-right: 10px;
+   border-right: 1px solid #222222;
 }
 
 .date__news-one {
    padding-right: 10px;
+   border-right: 1px solid #f3f3f3;
 }
 
 .division {
