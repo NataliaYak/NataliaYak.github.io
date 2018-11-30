@@ -125,10 +125,6 @@
     transition: all 500ms ease;
 }
 
-.blogsblock__title-link:hover {
-    color: #222222;
-}
-
 .blogsblock__img {
     width: 270px;
     height: 280px;
