@@ -51,6 +51,7 @@
     background-color: transparent;
     background-image: url(/img/bee-one-img.png);
     background-repeat: no-repeat;
+    animation: beejump 5s infinite;
 }
 
 .designer_url {
@@ -62,3 +63,8 @@
     color:inherit;
     cursor: pointer;
 }
+
+/*
+.design_by:hover::after {
+    animation: beejump 1s;
+}*/
