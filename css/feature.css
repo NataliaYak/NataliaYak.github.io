@@ -103,7 +103,6 @@
     transition: all 1000ms ease;  
 }
 
-
 .features__items:hover::after {
     transform: translateX(386px);
     width: 317px;
