@@ -97,12 +97,15 @@
   line-height: 1.5;
   text-transform: uppercase;
   color: #11749e;
-  white-space: nowrap;    
+  white-space: nowrap;   
+    
+    transition: all 500ms ease;
 }
 
 .teamsblock__title,
 .teamsblock__title span {
-   border-top: 24px solid #ffffff; 
+  border-top: 24px solid #ffffff;    
+  transition: all 500ms ease;
 }
 
 .teamsblock__title {  
@@ -119,5 +122,70 @@
   background-color: #ffffff;
   height: 150px;  
   width: 218px;
-  text-align: center;
+  text-align: center;    
+  transition: all 500ms ease;
+}
+
+/*FIGCAPTION HOVER UP & TRANSPARENT*/
+
+.teamsblock:hover .teamsblock__title {    
+  white-space: nowrap;
+  background-color: #ffffff;
+  height: 250px;  
+  transform: translateY(-40px);
+  height: 250px;
+  border-top: 24px solid #ffffff; 
+  opacity: 0.5;
+}
+
+.teamsblock:hover .teamsblock span {
+  color: rgba(17,116,158,1);
+}
+
+/*APPROXIMATION & HIGHLIGHT HOVER*/
+
+
+.teamsblock img{
+  width: 270px;
+  height: 415px;
+  object-fit: cover;
+  box-shadow: 10px 15px 25px 0 rgba(0,0,0,.2);
+  display: block;
+  transition: all .5s cubic-bezier(0.645, 0.045, 0.355, 1);
+  margin-top: 10px;
+}
+
+.teamsblock:hover img{
+  box-shadow: 1px 1px 10px 0 rgba(0,0,0,.1);
+}
+
+.teamsblock .glow-wrap{
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  margin-top: 10px;
+}
+
+.teamsblock .glow{
+  display: block;
+  position:absolute;
+  width: 40%;
+  height: 200%;
+  background: rgba(255,255,255,.2);
+  top: 0;
+  filter: blur(5px);
+  transform: rotate(45deg) translate(-450%, 0);
+  transition: all .5s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.teamsblock:hover .glow{
+  transform: rotate(45deg) translate(450%, 0);
+  transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.teamsblock:hover img,
+.teamsblock:hover .glow-wrap{
+  margin-top: -10px;
 }
