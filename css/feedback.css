@@ -110,6 +110,15 @@
     color: transparent;
 }
 
+.feedback__form-data input:hover,
+.feedback__form-message textarea:hover {
+    border: 2px solid #ffffff;
+} 
+.feedback__form-data input:hover::placeholder,
+.feedback__form-message textarea:hover::-webkit-input-placeholder  { 
+    font-size: 1.0625rem;
+}
+
 .feedback__form-message {
     margin-top: 39px;
 }
@@ -129,6 +138,8 @@
     color: #ffffff;
     cursor: pointer;
 }
-    
-    
-    
+
+ .feedback__form .btn:hover {  
+    background-color: #11649e;
+    box-shadow: 0 0 20px 0px rgba(17, 116, 158, 0.5); 
+}
