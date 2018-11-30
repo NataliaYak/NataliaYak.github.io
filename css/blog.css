@@ -125,13 +125,6 @@
     transition: all 500ms ease;
 }
 
-.blogsblock__img {
-    width: 270px;
-    height: 280px;
-    transform: none;
-    transition: all 500ms ease;  
-}
-
 .blogsblock:hover .blogsblock__img {
     transform: scale(1.25);
     transition: all 500ms ease;
