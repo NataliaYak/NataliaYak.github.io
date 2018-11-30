@@ -71,7 +71,7 @@
 
 .blogsblock {  
   position: relative;
-  width: 272px;
+  width: 270px;
   margin: 0 15px;
   padding: 0;
   overflow: hidden;
@@ -101,7 +101,7 @@
   text-align: center;
   font-family: 'Gotham-Medium', sans-serif;
   font-weight: normal;
-  font-size: 1.1250 rem;
+  font-size: 1.1250rem;
   line-height: 2.25;
   text-transform: uppercase;
   color: #11749e;
@@ -119,3 +119,32 @@
   color: #222222;  
 }
 
+.blogsblock__title-link {
+    text-decoration: none;
+    color: #11749e;
+    transition: all 500ms ease;
+}
+
+.blogsblock__title-link:hover {
+    color: #222222;
+}
+
+.blogsblock__img {
+    width: 270px;
+    height: 280px;
+    transform: none;
+    transition: all 500ms ease;  
+}
+
+.blogsblock:hover .blogsblock__img {
+    transform: scale(1.25);
+    transition: all 500ms ease;
+}
+
+.blogsblock:hover .blogsblock__title {
+    color: #222222;
+    transform: scale(1.05);
+    margin-bottom: 0px;
+    margin-top: 56px;
+    transition: all 500ms ease;
+}
