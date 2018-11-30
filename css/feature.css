@@ -73,9 +73,46 @@
 
 .features__image {
     display: block; 
-    width: 390px;
+    width: 310px;
     height: 651px;
-    background-image: url(/img/feature-img.png) no-repeat;
+    background: url(/img/feature-img-1.png) no-repeat;
     margin-top: 100px;
     margin-right: 135px;
+    border-radius: 3em;
+    box-shadow: none;
+    transition: all 500ms ease;
 }
+
+.features__items:hover {
+    transform: scalex(1.025);
+    transition: all 500ms ease;
+}
+
+.features__list {
+    position: relative;
+}
+.features__items::after {
+    content: "";  
+    position: absolute;
+    bottom: 0;
+    left: 0; 
+    margin-bottom: 17px;    
+    height: 2px;
+    background-color: #11749e;
+    opacity: 0;
+    transition: all 1000ms ease;  
+}
+
+
+.features__items:hover::after {
+    transform: translateX(386px);
+    width: 317px;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.features__image:hover {
+    box-shadow:-3px -4px 2px #11749e;
+    transition: all 500ms ease;
+}
+ 
