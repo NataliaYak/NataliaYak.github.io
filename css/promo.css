@@ -58,11 +58,65 @@
 
 .scroll__text{
   margin: 0 15px;
-  margin-bottom: 19px;  
+  margin-bottom: 23px;  
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-size: 0.8125rem;
   line-height: 1.3750;
   text-transform: capitalize;
   color: #ffffff;   
+}
+
+/*SCROLL BUTTON*/
+
+
+.scroll_button {
+    display: block;
+    position: relative;
+  background: transparent;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;  
+}
+
+  .scroll_down {
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  height: 65px;
+  width: 65px;
+  bottom: 0px;
+  background-color: transparent;
+  border: 1px solid #f5f5f5;
+  border-radius: 50%;
+  cursor: pointer;
+  outline: none;
+  transition: all 500ms ease;
+}
+
+  .btn_symbol {
+  width: 16px;
+  height: 16px;
+  margin-left: 18px;
+      margin-top: 10px;
+  background-color: transparent;
+  background: url(/img/ancel.svg) no-repeat;
+  background-position: center top;
+  vertical-align: middle;
+  box-sizing: border-box;
+  cursor: pointer; 
+}
+
+.scroll_down:hover {
+    border: none;
+    background-color: rgba(245,245,245,0.1);  
+    transition: all 500ms ease;
+}
+
+scroll_button:hover,
+.scroll_down:hover,
+.btn_symbol:hover {
+    box-shadow: 0 0 20px 0px rgba(17, 116, 158, 0.5); 
+    
 }
