@@ -39,6 +39,7 @@ html {
     padding:0;
 }
 body {
+    min-width: 1200px;
     font-family: 'Gotham-Book', sans-serif;
     font-weight: 300;
     color: #ffffff;
