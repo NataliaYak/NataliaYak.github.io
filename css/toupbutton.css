@@ -1,0 +1,60 @@
+/*  TO UP BUTTON START  */
+
+#toup__button {
+  
+  --size: 50px;
+  --br-size: 1px;
+  --br-color: rgba(17,116,158,.8);
+  --bg-color: rgba(255,255,255,.1);
+/*  rgba(255,255,255,.3);*/
+  position: fixed;
+  right: var(--size);
+  bottom: var(--size);
+  
+  box-sizing: border-box;
+  width: var(--size);
+  height: var(--size);
+  overflow: hidden;
+  
+  border: var(--br-size) solid var(--br-color);
+  border-radius: 50px;
+  background-color: var(--bg-color);
+  
+  opacity: 1;
+  transition: 1s;
+  
+}
+
+#toup__button.hidden {
+  
+  opacity: 0;
+  transition: 1s;
+  
+}
+
+#toup__button::before {
+  
+  content: "";
+  display: block;
+  
+  position: absolute;
+  
+}
+
+#toup__button::before {
+  
+  top: 50%;
+  left: 50%;
+  
+  box-sizing: border-box;
+  width: calc(var(--size) / 3);
+  height: calc(var(--size) / 3);
+  
+  border: var(--br-size) solid transparent;
+  border-top-color: var(--br-color);
+  border-right-color: var(--br-color);
+  transform: translateX(-50%) translateY(-20%) rotate(-45deg);
+  
+}
+
+/*  TO UP BUTTON END  */
