@@ -98,7 +98,7 @@
   .btn_symbol {
   width: 16px;
   height: 16px;
-  margin-left: 18px;
+  margin-left: 15px;
       margin-top: 10px;
   background-color: transparent;
   background: url(/img/ancel.svg) no-repeat;
@@ -109,7 +109,7 @@
 }
 
 .scroll_down:hover {
-    border: none;
+    border: 2px solid #11749e;
     background-color: rgba(245,245,245,0.1);  
     transition: all 500ms ease;
 }
